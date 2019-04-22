@@ -18,7 +18,7 @@ function preload ()
 
 function create ()
 {
-	this.add.image(800, 600, "sky");
+	this.add.image(800, 600, "sky").setOrigin(0,0);
 }
 
 function update ()
